@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070916">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="Game Pro Plus Plus | دنیای گیمینگ">
+  <meta property="og:description" content="Minecraft، گیمینگ، موبایل، آموزش و پروژه‌ها — همه لینک‌ها در یکجا.">
+  <meta property="og:type" content="website">
+  <meta name="description" content="Game Pro Plus Plus — Minecraft، گیمینگ، موبایل، آموزش و پروژه‌های ساخته‌شده. همه لینک‌ها در یکجا.">
+  <title>Game Pro Plus Plus | دنیای گیمینگ</title>
+  <link rel="icon" href="assets/media/m8c2.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#070916;--panel:rgba(15,22,43,.78);--line:rgba(88,151,255,.18);--cyan:#42d9ff;--purple:#9a63ff;--green:#a5ff32;--muted:#a8b5d1;--text:#f5f8ff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#152a66 0,transparent 48%),var(--bg);color:var(--text);font-family:'Vazirmatn',Tahoma,system-ui,sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(rgba(66,217,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(66,217,255,.12) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:linear-gradient(to bottom,#000,transparent 85%);mask-image:linear-gradient(to bottom,#000,transparent 85%)}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:16px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.2px}.brand img{width:48px;height:48px;object-fit:cover;border-radius:50%;border:1px solid #386cff;box-shadow:0 0 22px #1665ff55}.brand span{line-height:1.25}.brand small{display:block;font-size:11px;color:var(--muted);font-weight:500;letter-spacing:1px;direction:ltr;text-align:right}.navlinks{display:flex;gap:18px;color:#c4cde2;font-size:13px}.navlinks a:hover{color:var(--cyan)}
+    .hero{position:relative;padding:52px 0 40px;text-align:center}.eyebrow{color:var(--cyan);font-size:12px;letter-spacing:2.4px;font-weight:800}.hero h1{margin:8px 0 10px;font-size:clamp(32px,6vw,66px);line-height:1.12;font-weight:900;direction:ltr;background:linear-gradient(100deg,#58dfff,#9a6bff 48%,#b4ff36);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 22px #247dff40)}.hero p{color:var(--muted);margin:0 auto;max-width:650px;font-size:15px;line-height:2}.chips{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin:22px 0}.chip{border:1px solid var(--line);background:#0d1530;padding:7px 13px;border-radius:999px;font-size:12px;color:#d9e5ff}.chip b{color:var(--green);margin-inline-end:5px}
+    .section{padding:28px 0 18px}.section-title{display:flex;align-items:center;gap:10px;margin-bottom:17px;font-size:22px;font-weight:800}.section-title:before{content:"";width:5px;height:25px;border-radius:9px;background:linear-gradient(var(--cyan),var(--purple));box-shadow:0 0 14px #42d9ff66}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:linear-gradient(145deg,rgba(17,27,54,.95),rgba(9,13,28,.95));border:1px solid var(--line);border-radius:18px;padding:20px;min-height:165px;display:flex;flex-direction:column;transition:.22s transform,.22s border-color,.22s box-shadow}.card:is(a):hover{transform:translateY(-4px);border-color:#43cfff70;box-shadow:0 10px 35px #092b6555}.card-top{display:flex;align-items:center;gap:12px}.icon{width:44px;height:44px;border-radius:13px;background:#101d3d;display:grid;place-items:center;font-size:22px;border:1px solid #294679;overflow:hidden;flex:0 0 44px}.icon img{width:100%;height:100%;object-fit:contain;padding:5px}.card h3{font-size:15px;margin:0 0 3px}.card small{color:var(--muted);font-size:11px}.card p{font-size:12px;color:#aab8d3;line-height:1.8;margin:12px 0}.card .go{margin-top:auto;color:var(--cyan);font-size:12px;font-weight:700}.soon{border-color:#9b72ff44;cursor:default}.soon .go{color:#b59aff}.project{background:linear-gradient(145deg,#10192d,#090d1a)}.project .go{color:var(--green)}.footer{border-top:1px solid #1b2b4c;margin-top:42px;padding:25px 0 35px;color:#8592ae;font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.footer strong{color:#cbd7f2}.glow{color:var(--cyan);text-shadow:0 0 16px #42d9ff55}
+    @media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:10px}.hero{padding-top:28px}}
+    @media(max-width:520px){.nav{flex-direction:column;align-items:flex-start;padding:14px 0}.navlinks{gap:14px;flex-wrap:wrap;font-size:12px}.grid{grid-template-columns:1fr}.card{min-height:140px}.hero p{font-size:13px}.section-title{font-size:19px}}
+
+    /* Lightweight image-copy deterrents (not absolute download protection) */
+    img, .protected-media { -webkit-user-drag:none; user-drag:none; }
+    img { pointer-events:none; }
+    .protected-media { position:relative; display:block; overflow:hidden; }
+    .protected-media::after { content:"GAME PRO PLUS PLUS"; position:absolute; inset:auto 8px 8px auto; z-index:2; pointer-events:none; color:rgba(255,255,255,.58); font:700 10px/1.2 system-ui,sans-serif; letter-spacing:1px; text-shadow:0 1px 4px #000; opacity:.6; }
+    .protected-media.avatar-wrap::after { content:"GP++"; inset:auto 0 12px 0; text-align:center; font-size:8px; }
+    img, .protected-media { -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; }
+    .banner-wrap{width:100%;aspect-ratio:1600/177;margin-bottom:32px;border-radius:16px;border:1px solid #4276ff55;box-shadow:0 15px 60px #051c6c55;}
+    .banner-wrap .banner{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;border:0;box-shadow:none;margin:0;border-radius:inherit;display:block;}
+    .avatar-wrap{width:122px;height:122px;border-radius:50%;margin:0 auto 18px;border:2px solid #36cfff;box-shadow:0 0 35px #226bff80;}
+    .avatar-wrap .hero-logo{width:100%;height:100%;margin:0;border:0;box-shadow:none;display:block;}
+    @media(max-width:800px){.banner-wrap{margin-bottom:22px}}
+    @media(max-width:520px){.banner-wrap{border-radius:9px}.banner-wrap::after{font-size:7px;inset:auto 5px 4px auto}.avatar-wrap{width:100px;height:100px}}
+    a:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}.brand:focus-visible,.navlinks a:focus-visible{border-radius:8px}
+    html{scroll-padding-top:12px}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:is(a):hover{transform:none}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#top"><img src="assets/media/m8c2.webp" alt="Game Pro Plus Plus logo" width="48" height="48"><span>GAME PRO PLUS PLUS<small>GAMING • MINECRAFT • MOBILE</small></span></a>
+    <nav class="navlinks" aria-label="ناوبری"><a href="#social">شبکه‌های اجتماعی</a><a href="#projects">پروژه‌ها</a><a href="#about">درباره</a></nav>
+  </header>
+  <main id="top" class="wrap">
+    <section class="hero">
+      <div class="protected-media banner-wrap"><img class="banner" src="assets/media/q4v7.jpg" alt="بنر گیمینگ Game Pro Plus Plus" width="1600" height="177" fetchpriority="high"></div>
+      <div class="protected-media avatar-wrap"><img class="hero-logo" src="assets/media/m8c2.webp" alt="لوگوی کانال Game Pro Plus Plus" width="122" height="122"></div>
+      <div class="eyebrow">WELCOME TO MY GAMING WORLD</div>
+      <h1>GAME PRO PLUS PLUS</h1>
+      <p>اینجا دنیای ماینکرفت، گیمینگ و موبایل به هم می‌رسند! آموزش، گیم‌پلی، مودها و پروژه‌های جذاب را از لینک‌های زیر دنبال کن.</p>
+      <div class="chips"><span class="chip"><b>✦</b> Minecraft</span><span class="chip"><b>✦</b> Gaming</span><span class="chip"><b>✦</b> Mobile</span><span class="chip"><b>✦</b> Tutorials</span></div>
+    </section>
+    <section id="social" class="section">
+      <h2 class="section-title">شبکه‌های اجتماعی</h2>
+      <div class="grid">
+        <a class="card" href="https://www.aparat.com/Game_Pro_Plus_Plus" target="_blank" rel="noopener noreferrer"><div class="card-top"><div class="icon"><img src="assets/media/x/k3p9.png" alt="آیکون آپارات" width="44" height="44" loading="lazy" decoding="async"></div><div><h3>آپارات</h3><small>ویدیوها و گیم‌پلی</small></div></div><p>ویدیوهای جدید و محتوای گیمینگ را در کانال آپارات ببین.</p><span class="go">ورود به کانال ↗</span></a>
+        <div class="card soon"><div class="card-top"><div class="icon"><img src="assets/media/x/u7f0.png" alt="آیکون یوتیوب" width="44" height="44" loading="lazy" decoding="async"></div><div><h3>یوتیوب</h3><small>به‌زودی / Coming soon</small></div></div><p>کانال یوتیوب در حال آماده‌سازی است؛ به‌زودی فعال می‌شود.</p><span class="go">COMING SOON ✦</span></div>
+        <a class="card" href="https://t.me/Game_Pro_Plus_Plus" target="_blank" rel="noopener noreferrer"><div class="card-top"><div class="icon"><img src="assets/media/x/t5w4.png" alt="آیکون تلگرام" width="44" height="44" loading="lazy" decoding="async"></div><div><h3>تلگرام</h3><small>کانال رسمی</small></div></div><p>برای خبرها، اطلاعیه‌ها و مطالب تازه همراه شو.</p><span class="go">رفتن به تلگرام ↗</span></a>
+        <a class="card" href="https://rubika.ir/Game_pro_plus_plus" target="_blank" rel="noopener noreferrer"><div class="card-top"><div class="icon"><img src="assets/media/x/r2b8.png" alt="آیکون روبیکا" width="44" height="44" loading="lazy" decoding="async"></div><div><h3>روبیکا</h3><small>صفحه رسمی</small></div></div><p>محتوا و اخبار را در روبیکا هم دنبال کن.</p><span class="go">رفتن به روبیکا ↗</span></a>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <h2 class="section-title">وب‌سایت‌ها و پروژه‌های من</h2>
+      <div class="grid">
+        <a class="card project" href="https://radio-ark-mine.github.io/" target="_blank" rel="noopener noreferrer"><div class="card-top"><div class="icon"><img src="assets/media/x/d6n1.png" alt="آیکون Radio Ark Mine" width="44" height="44" loading="lazy" decoding="async"></div><div><h3>Radio Ark Mine</h3><small>رادیو ارک ماین</small></div></div><p>پروژه رادیو ارک ماین؛ موسیقی و فضای اختصاصی ماینکرفت.</p><span class="go">باز کردن وب‌سایت ↗</span></a>
+        <a class="card project" href="https://minecraft-dr4w.onrender.com" target="_blank" rel="noopener noreferrer"><div class="card-top"><div class="icon">🧭</div><div><h3>CraftStatus</h3><small>ابزار و وضعیت ماینکرفت</small></div></div><p>وب‌اپ CraftStatus را باز کن و ابزارهای مرتبط را بررسی کن.</p><span class="go">باز کردن پروژه ↗</span></a>
+        <a class="card project" href="https://Game-pro-plus-plus.github.io" target="_blank" rel="noopener noreferrer"><div class="card-top"><div class="icon">🌐</div><div><h3>وب‌سایت اصلی</h3><small>Official website · آزمایشی</small></div></div><p>خانه اصلی برند Game Pro Plus Plus؛ آدرس ممکن است در آینده تغییر کند.</p><span class="go">باز کردن وب‌سایت ↗</span></a>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <h2 class="section-title">درباره Game Pro Plus Plus</h2>
+      <div class="card" style="min-height:unset"><p style="margin:0">یک مجموعه گیمینگ با تمرکز بر <span class="glow">Minecraft، بازی‌های موبایل، آموزش، مودها و پروژه‌های خلاقانه</span>. این صفحه، لینک‌های رسمی و پروژه‌ها را یکجا جمع می‌کند تا راحت پیدایشان کنی.</p></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>© <span id="year">2026</span> <strong>Game Pro Plus Plus</strong> · ساخته‌شده برای گیمرها 🎮</span><span>Made with <span class="glow">neon</span> &amp; pixels</span></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+  <script>
+    // Deterrence only: files/images can still be fetched or captured by screenshots.
+    document.addEventListener('contextmenu', function(e) { if (e.target.closest('img, .protected-media')) e.preventDefault(); });
+    document.addEventListener('dragstart', function(e) { if (e.target.closest('img, .protected-media')) e.preventDefault(); });
+    document.addEventListener('selectstart', function(e) { if (e.target.closest('img, .protected-media')) e.preventDefault(); });
+  </script>
+</body>
+</html>
